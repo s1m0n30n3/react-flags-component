@@ -27,10 +27,6 @@ export const Demo = () => {
     ).replace(/[_]/g, " ");
   }, []);
 
-  const transformLabel = useCallback((code) => {
-    return `${transformCountry(code)} - ${code}`;
-  }, []);
-
   return (
     <div className="root">
       <div className="options">
