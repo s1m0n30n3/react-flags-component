@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`FlagDisplay > renders correctly 1`] = `
+<div
+  className="fib-rectangular-AFG fib-size-md"
+/>
+`;

@@ -1,0 +1,5 @@
+# tests
+/__tests__
+/node_modules
+main.jsx
+cypress.config.js
