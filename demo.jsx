@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react";
-import { FlagDisplay } from "./src/components/FlagDisplay";
+import { FlagDisplay } from "react-flags-component";
+import "react-flags-component/dist/style.css";
 
 import {
   ISO_3166_2_GB,

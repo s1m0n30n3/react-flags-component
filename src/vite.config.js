@@ -9,9 +9,9 @@ export default defineConfig({
     minify: true,
     reportCompressedSize: true,
     lib: {
-      entry: path.resolve(__dirname, "./index.jsx"),
+      entry: path.resolve(__dirname, "./index.js"),
       name: "React Flags Components",
-      fileName: (format) => `deadly-simple-gallery.${format}.js`,
+      fileName: (format) => `react-flags-component.${format}.js`,
       formats: ["es", "cjs"],
     },
     rollupOptions: {
